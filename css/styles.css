@@ -1,7 +1,8 @@
-
 *
 {
 	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
 }
 
 body
@@ -17,13 +18,22 @@ h1
 	font-weight: 20;
 }
 
-p
+div
 {
 	background: gray;
 	border: 5px solid black;
 	margin: 5px;
-	padding: 10px
+}
 
+section
+{
+	clear: right;
+	padding: 5px;
+}
+
+.row
+{
+	width: 100%;
 }
 
 
@@ -31,13 +41,14 @@ p
 {
 	border: 2px solid black;
 	font-weight: 10;
-	border: 2px solid black;
 	text-align: center;	
 	padding-top: 5px;
 	padding-bottom: 5px;
- 	vertical-align: top;
  	float: right;
  	width: 25%;
+ 	position: relative;
+ 	top: 0;
+ 	left: 0;
 }
 
 .paragraphHeader1
@@ -58,11 +69,6 @@ p
 	font-style: black;
 }
 
-.row
-{
-	width: 100%;
-}
-
 /* small devices*/
 @media (max-width: 767px)
 {
@@ -72,7 +78,6 @@ p
 	.col-xs-col10 .col-xs-col11 , .col-xs-col12 
 	{
 		float: left;
-		clear: right;	
 	}
 		.col-xs-col1
 		{
@@ -148,7 +153,7 @@ p
 		}
 			.col-md-col4
 		{
-			width: 33%
+			width: 31%
 		}
 			.col-md-col5
 		{
@@ -156,7 +161,7 @@ p
 		}
 			.col-md-col6
 		{
-			width: 50%
+			width: 48%
 		}
 			.col-md-col7
 		{
@@ -194,7 +199,7 @@ p
 	.col-lg-col10 .col-lg-col11 , .col-lg-col12 
 	{
 		float: left;
-		height: 250px;	
+		height: 300px;	
 	}
 		.col-lg-col1
 		{
@@ -210,7 +215,7 @@ p
 		}
 			.col-lg-col4
 		{
-			width: 33%
+			width: 31%
 		}
 			.col-lg-col5
 		{

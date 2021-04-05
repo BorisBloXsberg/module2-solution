@@ -22,7 +22,7 @@ div
 {
 	background: gray;
 	border: 5px solid black;
-	margin: 3px;
+	margin: auto;
 }
 
 section
@@ -34,7 +34,7 @@ section
 .paragraphHeader
 {
 	border: 2px solid black;
-	font-weight: 10;
+	font-weight: bold;
 	text-align: center;	
 	padding-top: 5px;
 	padding-bottom: 5px;

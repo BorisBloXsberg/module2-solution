@@ -1,6 +1,6 @@
 *
 {
-	box-sizing: border-box;
+	box-sizing: content-box;
 	padding: 0;
 	margin: 0;
 }
@@ -22,7 +22,7 @@ div
 {
 	background: gray;
 	border: 5px solid black;
-	margin: 5px;
+	margin: 3px;
 }
 
 section
@@ -30,12 +30,6 @@ section
 	clear: right;
 	padding: 5px;
 }
-
-.row
-{
-	width: 100%;
-}
-
 
 .paragraphHeader
 {
@@ -49,6 +43,7 @@ section
  	position: relative;
  	top: 0;
  	left: 0;
+	margin: 0;
 }
 
 .paragraphHeader1
@@ -199,7 +194,7 @@ section
 	.col-lg-col10 .col-lg-col11 , .col-lg-col12 
 	{
 		float: left;
-		height: 300px;	
+		height: 330px;	
 	}
 		.col-lg-col1
 		{
